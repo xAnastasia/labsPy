@@ -1,0 +1,19 @@
+#Задание 1
+a=int(input('Введите число: '))
+s=1
+while s**2<=a:
+     print(s**2)
+     s+=1
+
+
+#Задание 2
+a=int(input('Введите место Васи: '))
+if a % 2 != 0:
+    print ('Первый')
+else:
+    print ('Второй')
+
+
+#Задание 3
+array = [1,2,3,4,5]
+print(*reversed(array))
